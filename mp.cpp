@@ -1,5 +1,5 @@
  #include "mp.hpp"
-  ////////////////qst1////////////////
+  ////////////////////////////////
 Maillon::Maillon(char v, Maillon* s) {
     info = v;
     suivant = s;
@@ -80,7 +80,7 @@ int evaluer(string e) {
 
     return r;
 }
-////////////////qst2////////////////
+////////////////////////////////
 bool estOperande(char c) {
     return c >= '0' && c <= '9';
 }
@@ -138,7 +138,7 @@ string Postfix(string infix) {
 }
 
 
-//////////////////////// QST3 ////////////////////////
+////////////////////////////////////
 
 noeud::noeud() {
     type = 'f';
