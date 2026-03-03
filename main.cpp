@@ -3,9 +3,9 @@
 
 
 int main() {
-  /*  //////////////////////////
-    // Question 1 : évaluer une expression postfixée
-    //////////////////////////
+  
+   ////// évaluer une expression postfixée  ////////
+    
 
     string expPostfixee;
     cout << "Entrez une expression postfixée (ex: 23+5*): ";
@@ -16,9 +16,9 @@ int main() {
 
 
 
- //////////////////////////
- /*   // Question 2 : convertir infixée → postfixée
-    //////////////////////////
+
+    /////// convertir infixée → postfixée///////
+  
 
     string expInfixee;
     cout << "\nEntrez une expression infixée (ex: 2+3*5) : ";
@@ -27,7 +27,7 @@ int main() {
     string conversion = Postfix(expInfixee);
     cout << "Expression convertie en postfixée : " << conversion << endl;
 
-   */ //////////////qst3////////////////
+   ///////////////////////////////
 
     string exp;
     cout << "Entrez une expression infixée : ";
@@ -41,7 +41,4 @@ int main() {
     cout << "Résultat de l'évaluation : " << arbre.evaluer() << endl;
 
 
-    //////////////qst4////////////////
-
-    return 0;
-}
+  
