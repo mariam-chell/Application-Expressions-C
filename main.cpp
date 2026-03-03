@@ -17,7 +17,7 @@ int main() {
 
 
 
-    /////// convertir infixée → postfixée///////
+    /////// convertir infixée → postfixée ///////
   
 
     string expInfixee;
@@ -27,7 +27,7 @@ int main() {
     string conversion = Postfix(expInfixee);
     cout << "Expression convertie en postfixée : " << conversion << endl;
 
-   ///////////////////////////////
+   /////////////// construire et évaluer un arbre d’expression ////////////////
 
     string exp;
     cout << "Entrez une expression infixée : ";
